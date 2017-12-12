@@ -24,16 +24,6 @@ namespace SistemaExpertoPoligonos
                 newFact = new IntFact(f.Name(), value, null, 0);
             }
             return newFact;
-        }
-
-        internal int AskIntValue(String p)
-        {
-            return ihm.AskIntValue(p);
-        }
-
-        internal bool AskIntBoolValue(String p)
-        {
-            return ihm.AskIntValue(p);
-        }       
+        }               
     }
 }
