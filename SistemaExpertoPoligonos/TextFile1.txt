@@ -1,0 +1,12 @@
+﻿Implementación de Hechos:
+interface IFact
+class IntFact
+class BoolFact
+Base de Hechos:
+class factBase
+Reglas y Base de Reglas:
+class Rule
+class RulesBase
+Interfaz:
+interface HumanInterface
+class Program
